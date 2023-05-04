@@ -73,7 +73,7 @@ const Header = () => {
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [isScrollDown]);
+  }, []);
   return (
     <Box
       position="fixed"
